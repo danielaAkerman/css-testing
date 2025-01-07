@@ -1,0 +1,38 @@
+.navidad-section {
+    padding: 0 30px 30px 30px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-color: rgb(90, 0, 0);
+    gap: 25px;
+}
+
+.navidad-container1,
+.navidad-container2,
+.navidad-container3 {
+    width:
+        auto;
+    height:
+        100px;
+}
+
+.img-navidad1,
+.img-navidad2,
+.img-navidad3 {
+    width: 100%;
+    height: 100%;
+    transition: transform .5s;
+    transform-origin: top;
+}
+
+.navidad-container1:hover .img-navidad1 {
+    transform: rotate(100deg);
+}
+
+.navidad-container2:hover .img-navidad2 {
+    transform: rotate(-60deg);
+}
+
+.navidad-container3:hover .img-navidad3 {
+    transform: rotate(90deg);
+}

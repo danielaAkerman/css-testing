@@ -1,0 +1,32 @@
+.plants-section {
+    display: flex;
+    padding: 30px;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.flor-container {
+    width: 400px;
+    height: auto;
+}
+
+.plantaverde-container {
+    width: 240px;
+    height: auto;
+    margin-left: -80px;
+}
+
+.img-flor,
+.img-plantaverde {
+    width: 100%;
+    height: auto;
+    transition: transform 1.5s;
+}
+
+.flor-container:hover .img-flor {
+    transform: translateX(15px) scale(1.2);
+}
+
+.plantaverde-container:hover .img-plantaverde {
+    transform: translateX(-75px) rotate(-20deg);
+}
