@@ -1,0 +1,24 @@
+.pajarito-section {
+    padding: 30px;
+    background-color: brown;
+}
+
+.pajarito-container {
+    width: 120px;
+    height: auto;
+    background-color: aliceblue;
+    border-radius: 25px;
+}
+
+.pajarito-container:hover .img-pajarito {
+    transform: translateX(70vw);
+}
+
+.img-pajarito {
+    width: 100%;
+    height: 100%;
+    transition: transform 3s;
+}
+
+
+.img-pajarito{filter:drop-shadow(1px 1px 3px #550000)}
