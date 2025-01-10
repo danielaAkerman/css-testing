@@ -1,0 +1,71 @@
+.section-bolitas {
+    background-color: rgb(255 179 156);
+    padding: 30px;
+
+}
+
+.bolitas-container {
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    border: solid 2px;
+    align-self: center;
+    position: relative;
+}
+
+.bolitas-container:hover .bolita {
+    transform: translateX(calc(100vw - 360px));
+}
+
+.bolita img {
+    height: 100%;
+    top: 0;
+}
+
+.base-roja {
+    position: absolute;
+    height: 300px;
+
+    transition: cubic-bezier(.2,.89,.43,.51) 1.25s;
+    transition-delay: .3s;
+}
+
+.corazon-claro {
+    position: absolute;
+    height: 100px;
+    left: 107px;
+    top: 92px;
+
+    transition: cubic-bezier(.83,.62,.32,.52) 1.2s;
+    transition-delay: .4s;
+}
+
+.corazon-marron {
+    position: absolute;
+    height: 100px;
+    left: 104px;
+    top: 27px;
+
+    transition: transform 2s ease-in;
+    transition-delay: .1s;
+}
+
+.puntitos {
+    position: absolute;
+    height: 83px;
+    top: 74px;
+    left: 66px;
+
+    transition: cubic-bezier(.21, 1.11, 1, .25) 1.5s;
+    transition-delay: .32s;
+}
+
+.manito {
+    position: absolute;
+    height: 118px;
+    top: 132px;
+    left: 88px;
+
+    transition: cubic-bezier(.94,.28,.4,.73) 1s;
+    transition-delay: .2s;
+}
